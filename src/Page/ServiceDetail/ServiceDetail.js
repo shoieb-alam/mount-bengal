@@ -1,8 +1,9 @@
 import React from 'react';
 import { useParams } from 'react-router';
 
-const ServiceDetail = () => {
+const ServiceDetail = ({ Services }) => {
     const { serviceId, img } = useParams();
+    // const { img } = Services;
 
     return (
         <div className="m-5 p-5">

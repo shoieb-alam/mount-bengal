@@ -9,7 +9,6 @@ import Footer from './Page/Shared/Footer/Footer';
 import AuthProvider from './contexts/AuthProvider';
 import Login from './Page/Home/Login/Login/Login';
 import PrivateRoute from './Page/Home/Login/PrivateRoute/PrivateRoute';
-import Register from './Page/Home/Register/Register';
 
 
 function App() {
@@ -27,9 +26,6 @@ function App() {
             </Route>
             <Route path="/login">
               <Login></Login>
-            </Route>
-            <Route path="/register">
-              <Register></Register>
             </Route>
             <PrivateRoute path="/services/:serviceId">
               <ServiceDetail></ServiceDetail>

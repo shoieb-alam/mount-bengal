@@ -1,35 +1,76 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGoogle } from '@fortawesome/free-brands-svg-icons';
 import { Button, Form } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import useAuth from '../../../../hooks/useAuth';
 
 const Login = () => {
-    const { signInUsingGoogle } = useAuth();
+    const { signInUsingGoogle, isLogin,
+        handleRegistration,
+        handleNameChange,
+        handleEmailChange,
+        handlePassChange,
+        toggleLogin,
+        handleResetPassword,
+        error,
+        message
+    } = useAuth();
+
     return (
         <div>
-            <div className="d-flex align-items-center justify-content-center my-5 p-5">
+            <div className="mx-auto p-5 bg-dark w-50 ">
                 <div className="p-5 text-start bg-light">
-                    <div className="m-5">
+                    <Form onSubmit={handleRegistration}>
+                        <h3 className="text-center mb-5">{isLogin ? 'Login' : 'Register'}</h3>
+                        {!isLogin &&
+                            <Form.Group className="mb-3" controlId="formBasicName">
+                                <Form.Control type="name"
+                                    onBlur={handleNameChange} placeholder="Enter name"
+                                    required
+                                />
+                            </Form.Group>
+                        }
                         <Form.Group className="mb-3" controlId="formBasicEmail">
-                            <Form.Control type="email" placeholder="Enter email" />
+                            <Form.Control
+                                type="email"
+                                onBlur={handleEmailChange}
+                                placeholder="Enter email"
+                                required
+                            />
                         </Form.Group>
 
                         <Form.Group className="mb-3" controlId="formBasicPassword">
-                            <Form.Control type="password" placeholder="Password" />
+                            <Form.Control
+                                type="password"
+                                onBlur={handlePassChange} placeholder="Password"
+                                required
+                            />
+                        </Form.Group>
+                        <div className="d-flex justify-content-between">
+                            <div className="fw-bold text-danger">
+                                {error}  {message}
+                            </div>
+                            <div>
+                                <p onClick={handleResetPassword} type="button" className="text-end">Forgot Password?</p>
+                            </div>
+                        </div>
+
+                        <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                            <Form.Check
+                                type="checkbox"
+                                onChange={toggleLogin}
+                                label="Already registered?"
+                            />
                         </Form.Group>
 
-                        <div className="d-grid text-center">
-                            <Button variant="danger" type="submit">
-                                Sign in
+                        <div className="d-flex">
+                            <Button variant="dark" type="submit" className="w-50 btn-outline-danger fw-bold text-white mt-4">{isLogin ? 'Login' : 'Register'} </Button>
+
+                            <Button onClick={signInUsingGoogle} variant="light" type="submit" className="w-50 btn-outline-danger mt-4 fw-bold">
+                                <FontAwesomeIcon icon={faGoogle} /> Continue with Google
                             </Button>
-                            <br />
-                            <Button onClick={signInUsingGoogle} variant="danger" type="submit">
-                                SignIn with Google
-                            </Button>
-                            <br />
-                            <Link className="text-decoration-none" to="/register"><p className="text-danger">Don't have an account? </p></Link>
                         </div>
-                    </div>
+                    </Form>
                 </div>
             </div>
         </div>
