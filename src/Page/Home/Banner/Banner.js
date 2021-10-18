@@ -14,7 +14,7 @@ const Banner = () => {
                     />
                     <Carousel.Caption className="text-black">
                         <h5>Welcome to MOUNT BENGAL Hospital</h5>
-                        <h1 className="fw-bold">EXCENTIONAL CARE FOR EVERY PATIENT</h1>
+                        <h1 className="fw-bold">EXCEPTIONAL CARE FOR EVERY PATIENT</h1>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>

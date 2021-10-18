@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Col, Container } from 'react-bootstrap';
+import { Card, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Service.css';
 
@@ -7,7 +7,7 @@ const Service = ({ service }) => {
     const { id, img, name, title } = service;
 
     return (
-        <div className="bg-dark p-4">
+        <div className="bg-dark p-4 rounded">
             <Col>
                 <Card as={Link} to={`/services/${id}`} className="card text-decoration-none rounded-3 py-2 h-100">
                     <Card.Img variant="top" src={img} className="w-75 mx-auto" />

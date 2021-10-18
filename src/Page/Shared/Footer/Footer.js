@@ -1,10 +1,10 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter, faYoutube, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { Col, Container, Row } from 'react-bootstrap';
-import logo from '../../../../images/logo.png';
-import './Footer.css';
 import { faPhone, faEnvelopeOpen, faHospital } from '@fortawesome/free-solid-svg-icons';
+import { Col, Container, Row } from 'react-bootstrap';
+import logo from '../../../images/logo.png';
+import './Footer.css';
 
 const Footer = () => {
     return (
