@@ -7,6 +7,7 @@ import Home from './components/Page/Home/Home/Home';
 import Login from './components/Page/Login/Login';
 import Services from './components/Page/Home/Services/Services';
 import NotFound from './components/Page/NotFound/NotFound';
+import ServiceDetail from './components/Page/ServiceDetail/ServiceDetail';
 
 
 function App() {
@@ -24,8 +25,8 @@ function App() {
           <Route path="/login">
             <Login></Login>
           </Route>
-          <Route path="/services">
-            <Services></Services>
+          <Route path="/services/:serviceId">
+            <ServiceDetail></ServiceDetail>
           </Route>
           <Route path="">
           </Route>
