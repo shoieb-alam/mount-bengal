@@ -21,7 +21,6 @@ const ServiceDetail = () => {
     }, [serviceDetail])
     return (
         <div className="p-5 bg-light text-start">
-            {/* <h1>This is Details: {serviceId} </h1> */}
             <Container>
                 <h2>{singleService?.heading} </h2>
                 <Row xs={1} md={2} lg={2} className="py-3">

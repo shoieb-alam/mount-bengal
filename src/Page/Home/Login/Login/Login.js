@@ -60,7 +60,7 @@ const Login = () => {
                             <Form.Check
                                 type="checkbox"
                                 onChange={toggleLogin}
-                                label="Already have an account?"
+                                label="Don't have an account?"
                             />
                         </Form.Group>
 
