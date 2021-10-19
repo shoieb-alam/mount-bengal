@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import useAuth from '../../../hooks/useAuth';
 import logo from '../../../images/logo.png';
 import './Header.css';
@@ -31,10 +32,10 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto fw-bold">
-                            <Nav.Link as={Link} to="/home">Home</Nav.Link>
-                            <Nav.Link as={Link} to="/services">Services</Nav.Link>
+                            <Nav.Link as={HashLink} to="/home#banner">Home</Nav.Link>
+                            <Nav.Link as={Link} to="/about">About Us</Nav.Link>
+                            <Nav.Link as={HashLink} to="/home#services">Services</Nav.Link>
                             <Nav.Link as={Link} to="/doctors">Doctors</Nav.Link>
-                            <Nav.Link as={Link} to="/contact">Contact Us</Nav.Link>
                             {user?.email ?
                                 <>
                                     <p className="text-white m-2"> Signed in as: <Link to="/login">{user?.displayName}</Link> </p>

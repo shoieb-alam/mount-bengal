@@ -1,0 +1,13 @@
+.service{
+    background-image: url('https://i.ibb.co/pX5FyjT/Blood-pressure-monitor-470x313.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+	min-height: 350px;
+    position: relative;
+    
+}
+
+.bg-service{
+    background-color: RGBA(12, 11, 11, 0.79);
+    min-height: 350px;
+}

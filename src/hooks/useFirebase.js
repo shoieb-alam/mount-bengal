@@ -10,7 +10,7 @@ const useFirebase = () => {
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
     const [message, setMessage] = useState('');
-    const [isLogin, setIsLogin] = useState(false);
+    const [isLogin, setIsLogin] = useState(true);
     const [user, setUser] = useState({});
     const [isLoading, setIsLoading] = useState(true);
 
@@ -80,7 +80,7 @@ const useFirebase = () => {
                 const user = result.user;
                 console.log(user);
                 setError('');
-                setMessage('Successful');
+                setMessage('Login Successful');
             })
             .catch(error => {
                 setError('Incorrect username / password !');
@@ -94,30 +94,38 @@ const useFirebase = () => {
             .then(result => {
                 const user = result.user;
                 console.log(user);
-                setError('')
-                verifyEmail()
-                setUserName()
+                setError('');
+                verifyEmail();
+                setUserName();
             })
             .catch(error => {
-                setError(error.message);
+                setError("Account already exists !");
                 setMessage();
             })
     }
 
     const handleNameChange = e => {
         setName(e.target.value);
+        setMessage();
+        setError();
     }
 
     const handleEmailChange = e => {
         setEmail(e.target.value);
+        setMessage();
+        setError();
     }
     const handlePassChange = e => {
         setPassword(e.target.value);
+        setMessage();
+        setError();
     }
 
 
     const toggleLogin = e => {
         setIsLogin(e.target.checked);
+        setMessage();
+        setError();
     }
 
     const setUserName = () => {
