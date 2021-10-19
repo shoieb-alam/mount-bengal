@@ -16,35 +16,49 @@ import About from './Page/Home/About/About';
 function App() {
   return (
     <div className="App">
+
       <AuthProvider>
+
         <Router>
           <Header></Header>
           <Switch>
+
+            {/* default route */}
             <Route exact path="/">
               <Home></Home>
             </Route>
+
             <Route path="/home">
               <Home></Home>
             </Route>
+
             <Route path="/about">
               <About></About>
             </Route>
+
             <Route path="/login">
               <Login></Login>
             </Route>
+
+            {/* dynamic route passing through private route */}
             <PrivateRoute path="/services/:serviceId">
               <ServiceDetail></ServiceDetail>
             </PrivateRoute>
+
             <Route path="/doctors">
               <Doctors></Doctors>
             </Route>
+
             <Route path="*">
               <NotFound></NotFound>
             </Route>
+
           </Switch>
           <Footer></Footer>
         </Router>
+
       </AuthProvider>
+
     </div>
   );
 }

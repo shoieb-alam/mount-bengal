@@ -8,6 +8,8 @@ const Service = ({ service }) => {
 
     return (
         <div className="bg-service p-4 rounded">
+
+            {/* showing service data in home page */}
             <Col>
                 <Card as={Link} to={`/services/${id}`} className="card text-decoration-none rounded-3 py-2 h-100">
                     <Card.Img variant="top" src={img} className="w-75 mx-auto" />
@@ -19,6 +21,7 @@ const Service = ({ service }) => {
                     </Card.Body>
                 </Card>
             </Col>
+
         </div>
     );
 };

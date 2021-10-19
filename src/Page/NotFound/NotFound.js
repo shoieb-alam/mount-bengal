@@ -7,6 +7,8 @@ const NotFound = () => {
     return (
         <div>
             <div className="bg-404">
+
+                {/* Home Button */}
                 <Button as={Link} to="/home" className="btn-404 rounded-pill btn-lg btn-info fw-bold">GO BACK TO EARTH</Button>
             </div>
         </div>

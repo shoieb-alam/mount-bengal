@@ -3,6 +3,7 @@ import { Card, Col, Row } from 'react-bootstrap';
 
 const Doctors = () => {
     return (
+        // showing doctor list with details 
         <div className="bg-light p-5">
             <h1 className="py-3 fw-bold">OUR <span className="text-danger">CONSULTANTS</span> </h1>
             <Row xs={1} sm={2} md={3} lg={4} className="g-4">

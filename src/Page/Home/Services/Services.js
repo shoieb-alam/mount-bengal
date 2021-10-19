@@ -5,6 +5,8 @@ import './Services.css'
 
 const Services = () => {
     const [services, setServices] = useState([])
+
+    // data loading 
     useEffect(() => {
         fetch('services.json')
             .then(res => res.json())
@@ -15,8 +17,11 @@ const Services = () => {
         <div >
             <div className="py-5 ">
                 <h4 id="services">Our Services</h4>
-                <h1 className="fw-bold">We're <span className="text-danger">Offering</span></h1>
-                <div className="py-5 ">
+                <h1 className="fw-bold">We're
+                    <span className="text-danger"> Offering</span>
+                </h1>
+                <div className="py-5">
+
                     <Container className="service">
                         <Row xs={1} md={2} lg={3}>
                             {

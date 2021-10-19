@@ -1,0 +1,7 @@
+.banner-text{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 300px;
+    text-shadow: 0 0 15px rgb(99, 211, 255);
+}
