@@ -47,12 +47,7 @@ const Header = () => {
                             {/* showing username in the navbar if the user logged in  */}
                             {user?.email ?
                                 <>
-                                    <p className="text-white m-2"> Signed in as:
-                                        <Link to="/login">
-                                            {user?.displayName}
-                                        </Link>
-                                    </p>
-                                    <Button onClick={logOut} variant="danger" className="rounded-pill px-3">Logout</Button>
+                                    <Button onClick={logOut} variant="dark" className="btn-outline-danger rounded-pill px-3 ms-2">Logout {user?.displayName}</Button>
                                 </>
                                 :
                                 <Nav.Link as={Link} to="/login" className="btn-outline-danger rounded-pill px-3">Login</Nav.Link>

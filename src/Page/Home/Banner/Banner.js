@@ -17,7 +17,7 @@ const Banner = () => {
                     />
                     <Carousel.Caption className="text-black banner-text">
                         <h5>Welcome to MOUNT BENGAL Hospital</h5>
-                        <h1 className="fw-bold">EXCEPTIONAL CARE FOR EVERY PATIENT</h1>
+                        <h1 className="fw-bold mb-5 pb-5">EXCEPTIONAL CARE FOR EVERY PATIENT</h1>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -29,7 +29,7 @@ const Banner = () => {
                     />
                     <Carousel.Caption className="text-black banner-text">
                         <h5>Welcome to MOUNT BENGAL Hospital</h5>
-                        <h1 className="fw-bold">PROVIDING THE BEST MEDICAL CARE</h1>
+                        <h1 className="fw-bold mb-5 pb-5">PROVIDING THE BEST MEDICAL CARE</h1>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -41,7 +41,7 @@ const Banner = () => {
                     />
                     <Carousel.Caption className="text-black banner-text">
                         <h5>Welcome to MOUNT BENGAL Hospital</h5>
-                        <h1 className="fw-bold">WE HAVE QUALIFIED DOCTORS</h1>
+                        <h1 className="fw-bold mb-5 pb-5">WE HAVE QUALIFIED DOCTORS</h1>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

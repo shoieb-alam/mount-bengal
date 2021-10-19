@@ -16,6 +16,7 @@ const useFirebase = () => {
 
     const auth = getAuth();
 
+    // google signin 
     const signInUsingGoogle = () => {
         setIsLoading(true);
         const googleProvider = new GoogleAuthProvider();
@@ -24,13 +25,13 @@ const useFirebase = () => {
                 setUser(result.user);
             })
             .catch(error => {
-                setError(error.message);
+                setError("Popup closed / blocked by the user");
                 setMessage();
             })
             .finally(() => setIsLoading(false));
     }
 
-    // observe user state change
+    // observing user state change
     useEffect(() => {
         const unsubscribed = onAuthStateChanged(auth, user => {
             if (user) {
@@ -43,13 +44,19 @@ const useFirebase = () => {
         return () => unsubscribed;
     }, [])
 
+    // logout function 
     const logOut = () => {
         setIsLoading(true)
         signOut(auth)
-            .then(() => { })
+            .then(() => {
+                setMessage();
+                setError();
+            })
+
             .finally(() => setIsLoading(false));
     }
 
+    // email-password registration 
     const handleRegistration = e => {
         e.preventDefault();
         console.log(email, password);
@@ -58,11 +65,6 @@ const useFirebase = () => {
             setMessage();
             return;
         }
-        // if (!/(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/.test(password)) {
-        //   setError('Password must have minimum eight characters, at least one uppercase letter, one lowercase letter, one number and one special character');
-        //   return;
-
-
 
         if (isLogin) {
             processLogin(email, password);
@@ -89,6 +91,7 @@ const useFirebase = () => {
     }
 
 
+    // new user registration 
     const registerNewUser = (email, password) => {
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {

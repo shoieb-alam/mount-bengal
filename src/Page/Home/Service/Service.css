@@ -1,6 +1,5 @@
 .card{
     color: black;
-    border-radius: 20px;
 }
 .card:hover{
     background-color: black;

@@ -26,7 +26,7 @@ const About = () => {
                         <Col md={2} className="fw-bold">
                             <h3>Deliver QUALITY health care within 5 CORE standards</h3>
                         </Col>
-                        <Col md={10}>
+                        <Col md={10} className="mt-4">
                             <ul>
                                 <li>
                                     Adhering to high ethical and moral standards at all times

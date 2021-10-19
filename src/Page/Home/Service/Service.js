@@ -11,8 +11,8 @@ const Service = ({ service }) => {
 
             {/* showing service data in home page */}
             <Col>
-                <Card as={Link} to={`/services/${id}`} className="card text-decoration-none rounded-3 py-2 h-100">
-                    <Card.Img variant="top" src={img} className="w-75 rounded-3 mx-auto" />
+                <Card as={Link} to={`/services/${id}`} className="card text-decoration-none rounded-pill py-2 h-100">
+                    <Card.Img variant="top" src={img} className="w-75 rounded-pill mx-auto" />
                     <Card.Body>
                         <Card.Title>{name}</Card.Title>
                         <Card.Text>

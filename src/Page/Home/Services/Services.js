@@ -15,7 +15,7 @@ const Services = () => {
 
     return (
         <div >
-            <div className="py-5 ">
+            <div className="py-5">
                 <h4 id="services">Our Services</h4>
                 <h1 className="fw-bold">We're
                     <span className="text-danger"> Offering</span>
