@@ -1,16 +1,10 @@
 # MOUNT BENGAL HOSPITAL
 
-This is a simple project based on the Healthcare related site [MOUNT BENGAL HOSPITAL](https://healthcare-site.web.app/).
+A responsive front end based on a healthcare-related web app [MOUNT BENGAL HOSPITAL](https://healthcare-site.web.app/).
 
 
-## KEY Points
+## KEY Features
 
-* Login / SignUp Authentication System
-* Doctors Lists
-* Special Service Details.  
-* CT SCAN
-* DIGITAL X-RAY
-* BMD
-* ULTRASONOGRAPY
-* ERCP
-* PHYSIOTHERAPY CENTER
+* Login and Sign Up system using Firebase Authentication.
+* Private route for doctors page.
+* Display different data and images for different services.
