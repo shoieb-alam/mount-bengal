@@ -1,68 +1,68 @@
 [
-    {
-        "id": "001",
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/UPMCEast_CTscan.jpg/1200px-UPMCEast_CTscan.jpg",
-        "name": "CT SCAN",
-        "title": "128 Slice Siemens Machine",
-        "heading": "CT SCAN : AN ADVANCED BODY SCANNING TECHNOLOGY",
-        "description": "CT scan or CAT scan that stands for computerized tomography scan takes the use of X-rays to a whole different level. Here, computers and rotating X-ray machines create cross-sectional images of the body to make a 3D view of the diagnostic part of the body for the doctors. As a result, these images provide a better view than conventional X-ray. A CT scan can diagnose the tissue, bones and blood vessels of different parts of the body",
-        "img2": "https://4rai.com/images/easyblog_articles/187/b2ap3_amp_dr-examining-ct-xray.jpg",
-        "heading2": "HOW IS A CT SCAN PERFORMED:",
-        "description2": "A special kind of dye (contrast material) may be injected into your arm or administered through your rectum via an enema, or you may even be told to drink the dye that will block the X-rays during the scan making the blood vessels, intestines or other structures which are being diagnosed highlighted. The doctor will suggest you fast for four to six hours before the diagnosis, in case you have to drink the dye. You will change into a hospital gown and remove metal objects (jewelry, dentures, spectacles) from the body as metal interferes with the scan results. Then, you will be asked to lie down on a table which will gently move and enter the scanner, while the doctors will leave the exam room and go to the control room where you will be able to communicate with them through the intercom. The X-ray machine will rotate around you as the table slowly moves into position. The table will run a few millimeters at a time, and each rotation will produce ample numbers of pictures of thin slices of your body. The entire process takes from 20 minutes to one hour to complete. You will be asked to stay still the full time and hold your breath for a short a short time for a clear image of the chest area."
-    },
-    {
-        "id": "002",
-        "img": "https://blog.allstarxray.com/wp-content/uploads/2017/08/shutterstock_257499682-624x416.jpg",
-        "name": "DIGITAL X-RAY",
-        "title": "Japanese Shimazu Machine",
-        "heading": "X-RAY: DIAGNOSIS USING RADIATION",
-        "description": "An x-ray that is a makeup for X-radiation is one of most popular imaging test used for a long time. It saves the patient from the complications of going through surgery and gives the doctor a better view of the inside of your body. X-ray helps to diagnose, monitor and even treat specific diseases. There are many types of X-rays. For example, the doctors prescribe a mammogram to examine the breast, while they will suggest a barium enema to get a better look at your gastrointestinal duct.",
-        "img2": "https://d1619fmrcx9c43.cloudfront.net/fileadmin/_processed_/9/5/csm_x-ray_334ccdc202.jpg",
-        "heading2": "HOW IS AN X-RAY PERFORMED:",
-        "description2": "X-ray is an outpatient and standard procedure. As in, you don’t need to prepare for them and can go out and do day-to-day works after finished. You will have to wear loose, comfortable clothing in which you can quickly move around. Your doctor may ask you to change into a hospital gown. You should make sure to remove any jewelry or metallic items from the body as it will scramble the result. Must inform doctor before x-ray if you have any metal implant prior surgeries. The doctor may also ask you to inhale or inject dye (contrast materials), that contains iodine or barium compounds. So, make sure to inform the doctor if you have an allergic reaction to iodine. You need to fast for a certain amount of time if you are diagnosing your gastrointestinal tract. An X-ray can perform in a hospital’s radiology department, a dentist’s office or clinic that specializes in diagnostic procedures. Once you prepared, your radiologist will show you the proper way to sit, stand or lie down to get a clear image according to the part that will be examined. It is important to stay still while the radiologist takes the photos."
-    },
-    {
-        "id": "003",
-        "img": "https://static.wixstatic.com/media/101a3d_3fe1a91d59ff443c95f565d6e1a0cf1b~mv2.jpg/v1/fill/w_725,h_499,al_c,q_90/101a3d_3fe1a91d59ff443c95f565d6e1a0cf1b~mv2.jpg",
-        "name": "BMD",
-        "title": "American GE Machine",
-        "heading": "BONE MINERAL DENSITY TEST TO PREVENT OSTEOPOROSIS",
-        "description": "Bone mineral density or BMD test is one of the most highly recommended tests for people who are prone to osteoporosis (the most common type of bone disease), especially women or older adults. It uses X-rays to evaluate the number of minerals in bones, mainly the amount of calcium. It is also called DXA (dual-energy X-ray absorptiometry). The detection of osteoporosis makes it essential as this disease gradually makes your bone tissue thin and frail then leads to disabling fractures.",
-        "img2": "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/324553_2200-732x549.jpg",
-        "heading2": "HOW IT’S PERFORMED:",
-        "description2": "It is a painless, outpatient and noninvasive test and requires no medication. Mostly, you will be asked to lie on a table or a bench, and the X-ray machine will scan those parts of your body which needs to diagnose. The test takes place in specialized testing facilities. It can also be performed in your doctor’s office, clinics or pharmacies if they have the right equipment."
-    },
-    {
-        "id": "004",
-        "img": "http://africanhealthsciences.org/wp-content/uploads/2017/09/8-1.jpg",
-        "name": "ULTRASONOGRAPHY",
-        "title": "Korean Samsung Machine",
-        "heading": "ULTRASONOGRAPHY: WHY AND HOW",
-        "description": "The technology where ultrasound, a very high-frequency sound, is used to take live and diagnostic images from inside your body to be examined by the physician is called the medical ultrasound. The type of ultrasonogram we commonly face is obstetric ultrasound which is used to test pregnant women. Tendons, muscles, joints, blood vessels and other internal organs can be examined through ultrasound too. But unlike different types of diagnostic systems ultrasonography doesn’t require radiation. It is similar to the technology of sonar or radar. As a result, it is entirely a safe method to examine a fetus or any tissue or internal parts of our body.",
-        "img2": "https://5.imimg.com/data5/JF/IG/GLADMIN-50961650/ultrasonography-500x500.png",
-        "heading2": "HOW AN ULTRASOUND PERFORMED:",
-        "description2": "Firstly, after changing into a hospital gown, you will be lying on a table with a section or your body, which will be examined, exposed. The sonographer, the ultrasound technician, will apply a lubricating jelly over the exposed skin. It makes the ultrasound transducer frictionless while moving over the skin. The ointment helps to transmit the sound wave while the sensor works as a microphone. The ripples from the transducer form a picture that can be interpreted by the doctor. The overall process takes about 30 minutes according to which part of the body examined. As it is an outpatient procedure, the patient is free to go out and do a day-to-day activity after the process is complete. You may need to fast for 8 to 12 hours before an ultrasound according to the fixed timetable given by the doctor. But, it depends on the organ that will be diagnosed. For example, in the case of gallbladder, liver or pancreas diagnosis you will only be prescribed to eat fat-free food the evening before the test. Point to be noted; you may eat your prescribed medicine or drink water. On the other hand, for bladder diagnosis, you will be told to drink a lot of water and to hold your urine to get a proper image of the bladder. Its done so that the remaining digest and undigested materials won’t create an interference during the diagnosis by blocking sound waves."
-    },
-    {
-        "id": "005",
-        "img": "https://i.ibb.co/YD5S9Dc/gastric-bypass-ercp.jpg",
-        "name": "ERCP",
-        "title": "Diagnose diseases made easy",
-        "heading": "ERCP IN A NUTSHELL",
-        "description": "ERCP which also stands for Endoscopic retrograde cholangiopancreatography is a technique used to cure and treat specific health problems of the biliary or pancreatic ductal systems. In this process, the physician uses a flexible light tube (endoscope) which is not thicker than our index finger and places it through the patient’s mouth and into the stomach and duodenum. Duodenum is the initial part of the small intestine where there is a small opening called ampulla. After that, cannula, a small plastic tube, is passed through the endoscope into the opening. The technique is to use a dye which is a contrast material which shows radiation due to X-ray. So that the physician can study the ducts of the pancreas and liver from the X-rays.",
-        "img2": "https://6ada39ab3e4e4dfd9962-0915b3b9e650afef6a84b370287eeb00.ssl.cf5.rackcdn.com/ercp-2-georgia.jpg",
-        "heading2": "WHY IS ERCP PERFORMED:",
-        "description2": "The main reason to perform an ERCP is to test pancreas or bile ducts conditions along with treating them. To clarify abnormal results of blood tests, or CT scans, abdominal pain, jaundice, and weight loss, tumors, both cancerous and noncancerous, can be diagnosed with ERCP. It can also assist in gallbladder surgery or yo remove a bile duct stone and occasionally, pancreatic stone and it will show if the patient needs an operation and even which conventional operation will suit him/her the best. Therefore, this is one of the most effective and economic diagnosing technology comparing to others."
-    },
-    {
-        "id": "006",
-        "img": "http://www.emccochin.com/wp-content/uploads/2015/12/Physiotherapy-1.jpg",
-        "name": "PHYSIOTHERAPY CENTER",
-        "title": "Help people with Disability",
-        "heading": "PHYSIOTHERAPY OVER SURGERY AND MEDICATION",
-        "description": "Physiotherapy is the treatment you can choose over medication or surgery to treat injury, disorder or diseases through physical methods, like, exercise, massage, manipulation, and other practice. Even though many may think that physiotherapy mainly works for back and sports-related injury, but, the truth is, physiotherapy can decrease the suffering from a physical problem arising from injury, disease, aging, and illness. Physiotherapists perform physiotherapy as prescribe by a Physical Medicine specialist who are highly trained professionals, and they work in a variety of environments, such as, hospitals, clinics, private practices, rehabilitation centers, sports clubs, schools, fitness centers and in the workplace.",
-        "img2": "https://www.coreconcepts.com.sg/wp-content/uploads/Can-Physiotherapy-Help-Improve-Your-Sleep-1200x675.jpg",
-        "heading2": "WHEN DO WE NEED PHYSIOTHERAPY?",
-        "description2": "Physiotherapy, a degree based healthcare system, can be recommended to improve a range of conditions. Think about getting physiotherapy if you have an injury, or chronic pain that affects how you function everyday. A doctor may refer you to physiotherapy after surgery such as a hip replacement, or an event such as a heart attack or stroke. If you are planning to use health insurance to help cover the cost of physiotherapy, remember to visit your insurance company's website to ensure the physiotherapist is covered. If the physiotherapist is not covered by that insurance company you will not be able to use your benefits and will need to pay the full cost of treatment."
-    }
+  {
+    "id": "001",
+    "img": "https://i.ibb.co/SDj324D/CT-Scan-Machine.png",
+    "name": "CT SCAN",
+    "title": "128 Slice Siemens Machine",
+    "heading": "CT SCAN : AN ADVANCED BODY SCANNING TECHNOLOGY",
+    "description": "CT scan or CAT scan that stands for computerized tomography scan takes the use of X-rays to a whole different level. Here, computers and rotating X-ray machines create cross-sectional images of the body to make a 3D view of the diagnostic part of the body for the doctors. As a result, these images provide a better view than conventional X-ray. A CT scan can diagnose the tissue, bones and blood vessels of different parts of the body",
+    "img2": "https://4rai.com/images/easyblog_articles/187/b2ap3_amp_dr-examining-ct-xray.jpg",
+    "heading2": "HOW IS A CT SCAN PERFORMED:",
+    "description2": "A special kind of dye (contrast material) may be injected into your arm or administered through your rectum via an enema, or you may even be told to drink the dye that will block the X-rays during the scan making the blood vessels, intestines or other structures which are being diagnosed highlighted. The doctor will suggest you fast for four to six hours before the diagnosis, in case you have to drink the dye. You will change into a hospital gown and remove metal objects (jewelry, dentures, spectacles) from the body as metal interferes with the scan results. Then, you will be asked to lie down on a table which will gently move and enter the scanner, while the doctors will leave the exam room and go to the control room where you will be able to communicate with them through the intercom. The X-ray machine will rotate around you as the table slowly moves into position. The table will run a few millimeters at a time, and each rotation will produce ample numbers of pictures of thin slices of your body. The entire process takes from 20 minutes to one hour to complete. You will be asked to stay still the full time and hold your breath for a short a short time for a clear image of the chest area."
+  },
+  {
+    "id": "002",
+    "img": "https://i.ibb.co/x8CdrtG/X-RAY.jpg",
+    "name": "DIGITAL X-RAY",
+    "title": "Japanese Shimazu Machine",
+    "heading": "X-RAY: DIAGNOSIS USING RADIATION",
+    "description": "An x-ray that is a makeup for X-radiation is one of most popular imaging test used for a long time. It saves the patient from the complications of going through surgery and gives the doctor a better view of the inside of your body. X-ray helps to diagnose, monitor and even treat specific diseases. There are many types of X-rays. For example, the doctors prescribe a mammogram to examine the breast, while they will suggest a barium enema to get a better look at your gastrointestinal duct.",
+    "img2": "https://d1619fmrcx9c43.cloudfront.net/fileadmin/_processed_/9/5/csm_x-ray_334ccdc202.jpg",
+    "heading2": "HOW IS AN X-RAY PERFORMED:",
+    "description2": "X-ray is an outpatient and standard procedure. As in, you don’t need to prepare for them and can go out and do day-to-day works after finished. You will have to wear loose, comfortable clothing in which you can quickly move around. Your doctor may ask you to change into a hospital gown. You should make sure to remove any jewelry or metallic items from the body as it will scramble the result. Must inform doctor before x-ray if you have any metal implant prior surgeries. The doctor may also ask you to inhale or inject dye (contrast materials), that contains iodine or barium compounds. So, make sure to inform the doctor if you have an allergic reaction to iodine. You need to fast for a certain amount of time if you are diagnosing your gastrointestinal tract. An X-ray can perform in a hospital’s radiology department, a dentist’s office or clinic that specializes in diagnostic procedures. Once you prepared, your radiologist will show you the proper way to sit, stand or lie down to get a clear image according to the part that will be examined. It is important to stay still while the radiologist takes the photos."
+  },
+  {
+    "id": "003",
+    "img": "https://i.ibb.co/T1nZcm4/BMD.webp",
+    "name": "BMD",
+    "title": "American GE Machine",
+    "heading": "BONE MINERAL DENSITY TEST TO PREVENT OSTEOPOROSIS",
+    "description": "Bone mineral density or BMD test is one of the most highly recommended tests for people who are prone to osteoporosis (the most common type of bone disease), especially women or older adults. It uses X-rays to evaluate the number of minerals in bones, mainly the amount of calcium. It is also called DXA (dual-energy X-ray absorptiometry). The detection of osteoporosis makes it essential as this disease gradually makes your bone tissue thin and frail then leads to disabling fractures.",
+    "img2": "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/324553_2200-732x549.jpg",
+    "heading2": "HOW IT’S PERFORMED:",
+    "description2": "It is a painless, outpatient and noninvasive test and requires no medication. Mostly, you will be asked to lie on a table or a bench, and the X-ray machine will scan those parts of your body which needs to diagnose. The test takes place in specialized testing facilities. It can also be performed in your doctor’s office, clinics or pharmacies if they have the right equipment."
+  },
+  {
+    "id": "004",
+    "img": "https://i.ibb.co/2S6z1Dw/ULTRASONOGRAPHY.jpg",
+    "name": "ULTRASONOGRAPHY",
+    "title": "Korean Samsung Machine",
+    "heading": "ULTRASONOGRAPHY: WHY AND HOW",
+    "description": "The technology where ultrasound, a very high-frequency sound, is used to take live and diagnostic images from inside your body to be examined by the physician is called the medical ultrasound. The type of ultrasonogram we commonly face is obstetric ultrasound which is used to test pregnant women. Tendons, muscles, joints, blood vessels and other internal organs can be examined through ultrasound too. But unlike different types of diagnostic systems ultrasonography doesn’t require radiation. It is similar to the technology of sonar or radar. As a result, it is entirely a safe method to examine a fetus or any tissue or internal parts of our body.",
+    "img2": "https://5.imimg.com/data5/JF/IG/GLADMIN-50961650/ultrasonography-500x500.png",
+    "heading2": "HOW AN ULTRASOUND PERFORMED:",
+    "description2": "Firstly, after changing into a hospital gown, you will be lying on a table with a section or your body, which will be examined, exposed. The sonographer, the ultrasound technician, will apply a lubricating jelly over the exposed skin. It makes the ultrasound transducer frictionless while moving over the skin. The ointment helps to transmit the sound wave while the sensor works as a microphone. The ripples from the transducer form a picture that can be interpreted by the doctor. The overall process takes about 30 minutes according to which part of the body examined. As it is an outpatient procedure, the patient is free to go out and do a day-to-day activity after the process is complete. You may need to fast for 8 to 12 hours before an ultrasound according to the fixed timetable given by the doctor. But, it depends on the organ that will be diagnosed. For example, in the case of gallbladder, liver or pancreas diagnosis you will only be prescribed to eat fat-free food the evening before the test. Point to be noted; you may eat your prescribed medicine or drink water. On the other hand, for bladder diagnosis, you will be told to drink a lot of water and to hold your urine to get a proper image of the bladder. Its done so that the remaining digest and undigested materials won’t create an interference during the diagnosis by blocking sound waves."
+  },
+  {
+    "id": "005",
+    "img": "https://i.ibb.co/YD5S9Dc/gastric-bypass-ercp.jpg",
+    "name": "ERCP",
+    "title": "Diagnose diseases made easy",
+    "heading": "ERCP IN A NUTSHELL",
+    "description": "ERCP which also stands for Endoscopic retrograde cholangiopancreatography is a technique used to cure and treat specific health problems of the biliary or pancreatic ductal systems. In this process, the physician uses a flexible light tube (endoscope) which is not thicker than our index finger and places it through the patient’s mouth and into the stomach and duodenum. Duodenum is the initial part of the small intestine where there is a small opening called ampulla. After that, cannula, a small plastic tube, is passed through the endoscope into the opening. The technique is to use a dye which is a contrast material which shows radiation due to X-ray. So that the physician can study the ducts of the pancreas and liver from the X-rays.",
+    "img2": "https://6ada39ab3e4e4dfd9962-0915b3b9e650afef6a84b370287eeb00.ssl.cf5.rackcdn.com/ercp-2-georgia.jpg",
+    "heading2": "WHY IS ERCP PERFORMED:",
+    "description2": "The main reason to perform an ERCP is to test pancreas or bile ducts conditions along with treating them. To clarify abnormal results of blood tests, or CT scans, abdominal pain, jaundice, and weight loss, tumors, both cancerous and noncancerous, can be diagnosed with ERCP. It can also assist in gallbladder surgery or yo remove a bile duct stone and occasionally, pancreatic stone and it will show if the patient needs an operation and even which conventional operation will suit him/her the best. Therefore, this is one of the most effective and economic diagnosing technology comparing to others."
+  },
+  {
+    "id": "006",
+    "img": "https://i.ibb.co/TcjPGsc/PHYSIOTHERAPY-CENTER.jpg",
+    "name": "PHYSIOTHERAPY CENTER",
+    "title": "Help people with Disability",
+    "heading": "PHYSIOTHERAPY OVER SURGERY AND MEDICATION",
+    "description": "Physiotherapy is the treatment you can choose over medication or surgery to treat injury, disorder or diseases through physical methods, like, exercise, massage, manipulation, and other practice. Even though many may think that physiotherapy mainly works for back and sports-related injury, but, the truth is, physiotherapy can decrease the suffering from a physical problem arising from injury, disease, aging, and illness. Physiotherapists perform physiotherapy as prescribe by a Physical Medicine specialist who are highly trained professionals, and they work in a variety of environments, such as, hospitals, clinics, private practices, rehabilitation centers, sports clubs, schools, fitness centers and in the workplace.",
+    "img2": "https://www.coreconcepts.com.sg/wp-content/uploads/Can-Physiotherapy-Help-Improve-Your-Sleep-1200x675.jpg",
+    "heading2": "WHEN DO WE NEED PHYSIOTHERAPY?",
+    "description2": "Physiotherapy, a degree based healthcare system, can be recommended to improve a range of conditions. Think about getting physiotherapy if you have an injury, or chronic pain that affects how you function everyday. A doctor may refer you to physiotherapy after surgery such as a hip replacement, or an event such as a heart attack or stroke. If you are planning to use health insurance to help cover the cost of physiotherapy, remember to visit your insurance company's website to ensure the physiotherapist is covered. If the physiotherapist is not covered by that insurance company you will not be able to use your benefits and will need to pay the full cost of treatment."
+  }
 ]
